@@ -17,7 +17,7 @@ g:www-data:rwx - Allow the group www-data to rwx the /var/www directory
 $ setfacl -x g:www-data /var/www
 -x - Remove ACL's defined for g:www-data at location /var/www
 
- 
+  
 Create the users we'll use:
 # Create user joel
 root@server $ adduser joel  
